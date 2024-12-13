@@ -1,0 +1,50 @@
+name: feature
+description: Report a Feature Request
+labels: ["enhancement"]
+projects: ["ntnxlab-ch/8"]
+title: "[FEAT]: "
+assignees: 
+body:
+- type: markdown
+  attributes:
+    value: "## TEST"
+- type: markdown
+  attributes:
+    value: |
+    Thank you for taking the time to fill out this feature request!
+- type: input
+  id: main_request
+  attributes:
+    label: Feature Topic Short
+    descriptionn: "Short description of the Feature"
+    placeholder: "As a <persona> ...."
+  validations:
+    required: true
+
+- type: textarea
+  id: detailed_request
+  attributes:
+    label: Request Details
+    description: "Please describe your Feature "
+    value: |
+      1.
+      2.
+      3.
+      ...
+    render: bash
+  validations:
+    required: true
+
+body:
+- type: dropdown
+  id: component
+  attributes:
+    label: What components?
+    options:
+      - NTNX-CORE
+      - Network
+      - OS
+      - GITHUB
+      - Documentation
+  validations:
+    required: true
