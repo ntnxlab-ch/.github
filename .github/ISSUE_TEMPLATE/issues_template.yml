@@ -4,7 +4,7 @@ title: "[Prefix]: "
 labels: ["template", "triage"]
 projects: ["ntnxlab-ch/8", "ntnxlab-ch/<someproject>"]
 assignees:
-  - @me
+  - <assignee>
 body:
   - type: markdown
     attributes:
