@@ -12,6 +12,7 @@ body:
   attributes:
     value: |
     Thank you for taking the time to fill out this feature request!
+
 - type: input
   id: main_request
   attributes:
