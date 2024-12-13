@@ -1,5 +1,5 @@
 name: <ISSUE type NAME>
-description: File a bug report.
+description: <issue-description>
 title: "[Prefix]: "
 labels: ["template", "triage"]
 projects: ["ntnxlab-ch/8", "ntnxlab-ch/<someproject>"]
