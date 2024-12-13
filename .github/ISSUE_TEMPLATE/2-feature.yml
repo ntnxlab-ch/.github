@@ -3,7 +3,9 @@ description: Report a Feature Request
 labels: ["enhancement"]
 projects: ["ntnxlab-ch/8"]
 title: "[FEAT]: "
-assignees: [""]
+assignees: ["Unassigned"]
+
+
 body:
 - type: markdown
   attributes:
@@ -36,7 +38,6 @@ body:
   validations:
     required: true
 
-body:
 - type: dropdown
   id: component
   attributes:
