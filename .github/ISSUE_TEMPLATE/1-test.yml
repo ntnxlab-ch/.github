@@ -4,6 +4,7 @@ title: "[Bug]: "
 labels: ["bug", "triage"]
 projects: ["ntnxlab-ch/8"]
 assignees:
+  - "Unassigned"
 
 body:
   - type: markdown
