@@ -3,7 +3,7 @@ description: Report a Feature Request
 labels: ["enhancement"]
 projects: ["ntnxlab-ch/8"]
 title: "[FEAT]: "
-assignees: 
+assignees: [""]
 body:
 - type: markdown
   attributes:
