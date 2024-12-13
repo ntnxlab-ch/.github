@@ -19,7 +19,7 @@ body:
   id: main_request
   attributes:
     label: Feature Topic Short
-    descriptionn: "Short description of the Feature"
+    description: "Short description of the Feature"
     placeholder: "As a <persona> ...."
   validations:
     required: true
