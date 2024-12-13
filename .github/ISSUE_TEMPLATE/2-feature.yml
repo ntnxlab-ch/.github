@@ -1,4 +1,4 @@
-name: feature
+name: "[FEAT] Feature/Enhancement"
 description: Report a Feature Request
 labels: ["enhancement"]
 projects: ["ntnxlab-ch/8"]
