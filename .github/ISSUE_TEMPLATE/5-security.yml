@@ -1,1 +1,53 @@
+name: "[SEC] Security Task"
+description: Report a Security Task
+labels: ["security"]
+projects: ["ntnxlab-ch/8"]
+title: "[SEC]: "
+assignees: ["Unassigned"]
 
+
+body:
+- type: markdown
+  attributes:
+    value: "## TEST"
+- type: markdown
+  attributes:
+    value: |
+      Thank you for taking the time to fill out this feature request!
+
+- type: input
+  id: main_request
+  attributes:
+    label: Feature Topic Short
+    description: "Short description of the Feature"
+    placeholder: "As a <persona> ...."
+  validations:
+    required: true
+
+- type: textarea
+  id: detailed_request
+  attributes:
+    label: Request Details
+    description: "Please describe your request "
+    value: |
+      1.
+      2.
+      3.
+      ...
+    render: bash
+  validations:
+    required: true
+
+- type: dropdown
+  id: component
+  attributes:
+    label: What components?
+    options:
+      - NTNX-CORE
+      - Network
+      - OS
+      - GITHUB
+      - Documentation
+      - LAB Access
+  validations:
+    required: true
