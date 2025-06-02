@@ -1,6 +1,6 @@
 name: "[FEAT] Feature/Enhancement"
 description: Report a Feature Request
-labels: ["enhancement"]
+labels: ["enhancement,triage"]
 projects: ["ntnxlab-ch/8"]
 title: "[FEAT]: "
 assignees: ["Unassigned"]
