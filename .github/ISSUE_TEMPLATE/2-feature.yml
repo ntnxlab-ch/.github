@@ -43,10 +43,17 @@ body:
   attributes:
     label: What components?
     options:
-      - NTNX-CORE
+      - NTNX-NCI
+      - NTNX-NCM
+      - NTXN-NUS
+      - NTNX-NDB
+      - NTNX-NKP
+      - NTNX-NAI
       - Network
-      - OS
+      - IAM (AD/DNS
+      - OS (Linux/Windows)
       - GITHUB
+      - CloudFlare
       - Documentation
   validations:
     required: true
